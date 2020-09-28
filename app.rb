@@ -7,7 +7,7 @@ class App < Sinatra::Base
       erb :index
     end
  
-    get "/info" do
-      erb :x
+    get "/dogs" do
+      erb :info
     end
 end
